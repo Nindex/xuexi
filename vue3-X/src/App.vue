@@ -1,14 +1,15 @@
+
 <template>
-<!-- html 结构 -->
- <div class="app">
-    <h1>你好</h1>
- </div>
+
+    <Person></Person>
 </template>
 
 <script lang="ts">
  //脚本
+ import Person from './components/Prseon.vue'
  export default {
-    name: 'App',
+    name: 'App',//组件的名称
+    components: {Person},//注册组件
  }
  
 </script>
